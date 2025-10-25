@@ -5,6 +5,8 @@
 This project implements a **Simulated Annealing (SA) metaheuristic** to solve the **Capacitated Vehicle Routing Problem (CVRP)**. The goal is to find optimal or near-optimal routes for a fleet of vehicles to serve a set of customers, respecting vehicle capacity constraints and minimizing the total travel distance.
 
 The code is structured as a Jupyter Notebook (`SA code.ipynb`) and provides a complete pipeline from reading standard VRP instance files to visualizing the final solution.
+## Author
+* Andres Cadena
 
 ## Features
 
