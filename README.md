@@ -27,6 +27,17 @@ The code is structured as a Jupyter Notebook (`SA code.ipynb`) and provides a co
     *   Calculates total route cost and vehicle loads.
     *   Plots the final solution with distinct colors for each vehicle route.
 
+## Key Parameters (Simulated Annealing)
+
+You can fine-tune the SA performance by adjusting these parameters inside the `runMyMetaheuristic` function:
+
+*   `initial_temp`: Starting temperature (e.g., 1500)
+*   `cooling_rate`: Geometric cooling rate (e.g., 0.995)
+*   `min_temp`: Stopping temperature (e.g., 0.001)
+*   `max_iter_per_temp`: Iterations at each temperature (e.g., 150)
+*   `total_max_iterations`: Global iteration cap (e.g., 200,000)
+*   `tournament_size`: Number of neighbors sampled per iteration (e.g., 10)
+
 ## Installation & Usage
 
 1.  **Prerequisites**: Ensure you have Python installed with the required libraries.
