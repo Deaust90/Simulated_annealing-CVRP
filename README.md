@@ -1,3 +1,4 @@
+![Project Banner](./Banner.png)
 # VRP Solver with Simulated Annealing
 
 ## Project Overview
